@@ -75,7 +75,7 @@ const Header = () => {
                 </Grid>
               </Grid>
               <Grid item spacing={1} style={{ marginRight: '25px' }}>
-                <IconButton color="inherit">
+                <IconButton color="inherit" data-testid="notifications-icon">
                   <Badge badgeContent={1} color="error">
                     <NotificationsIcon color="action" sx={styles.notificationsIcon} />
                   </Badge>
