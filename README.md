@@ -54,27 +54,47 @@ Jest
 testing-library/react
 
 Folder Structure
+
 /src
+
   /components
+
     - BasicTabs.js
+
     - DateRangePickers.js
+
     - Dropdown.js
+
     - Form.js
+
     - Header.js
+
     - MobileDrawer.js
+
     - SelectVariants.js
+
     - TravelCard.js
+
   /pages
+
     - Booking.js
+
   /redux
+
     - cardSlice.js
+
     - countrySlice.js
+
   /styles
+
     - ... (style files)
+
 /tests
+
   - Booking.test.js
 
 Getting Started
+
 To get started with the Travel Booking Application, follow these steps:
 
 Clone the repository.
