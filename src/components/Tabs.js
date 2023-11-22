@@ -11,6 +11,7 @@ import Form from './Form';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import '../styles/tabs.css';
 import Grid from '@mui/material/Grid';
+import SelectVariants from './SelectVariants';
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -71,15 +72,16 @@ export default function BasicTabs() {
           <div className='tabs-right'>
                 <div className='options'>
                   <div className='round-trip'>
-                    <h2>Round trip</h2>
-                    <span> <ArrowDropDownIcon /></span>
+                  <SelectVariants trip="true"/>
+                  
                   </div>
                 </div>
           
           
                 <div className='passenger'>
-                  <h2>1 passenger</h2>
-                  <span> <ArrowDropDownIcon /></span>
+                <SelectVariants passenger={true}
+                  />
+                 
                 </div>
            
           </div>

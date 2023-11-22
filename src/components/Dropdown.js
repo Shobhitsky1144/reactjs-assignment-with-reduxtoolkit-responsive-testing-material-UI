@@ -27,6 +27,7 @@ const Dropdown = ({countryData,label}) => {
           )}
           renderInput={(params) => (
             <TextField
+            variant='filled'
               {...params}
               label={label}
               inputProps={{
