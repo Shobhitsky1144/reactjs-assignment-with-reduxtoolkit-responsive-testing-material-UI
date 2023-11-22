@@ -1,0 +1,35 @@
+.tabs{
+    padding: 20px 0px 20px 0px;
+ 
+
+}
+.tabs-right{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.tabs-right .options{
+  display:flex;
+  margin-right: 30px;   
+  justify-content: end;
+}
+.tabs-right h2{
+  font-size: 20px;
+}
+.round-trip{
+  margin-right: 10px;
+  display: flex;
+
+}
+.passenger{
+  display: flex;
+  /* justify-content: start; */
+}
+.round-trip span{
+  position: relative;
+  padding-top: 4px;
+}
+.passenger span{
+  position: relative;
+  padding-top: 4px;
+}

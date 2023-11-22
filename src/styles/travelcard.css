@@ -1,0 +1,58 @@
+
+.card-results{
+    width: 90%;
+    margin:6rem auto 2rem auto;
+  
+    
+}
+.wrapper{
+margin: 60px 0;
+}
+.wrapper h1{
+font-size: 55px;
+padding-bottom: 15px;
+}
+.wrapper p{
+  font-size: 19px;
+  color: var(--secondary-color);
+}
+
+/* card style */
+
+.card-title{
+    font-weight: bold;
+    font-size: 23px;
+}
+.card-content{
+    color: var(--secondary-color);
+    padding-top: 10px;
+   
+}
+
+/* date */
+.date-parent{
+    margin-top: -8px;
+}
+.MuiMultiInputDateRangeField-separator{
+    display: none;
+}
+
+
+/* ---dropdown  */
+
+.dropdown-text{
+
+display: flex;
+flex-direction: column;
+padding-left: 5px;
+}
+
+.dropdown-text h3{
+    color: black;
+    font-weight: 500;
+}
+.dropdown-text h5{
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 14px;
+}
