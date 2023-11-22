@@ -6,6 +6,7 @@
 }
 :root{
     --main-color:'white';
+    --bg-color:#1976d2;
     --secondary-color:'gray';
 }
 
@@ -16,7 +17,7 @@
 /* search btn */
 
 button{
-    background: #1976d2;
+    background: var(--bg-color);
     color: var(--main-color);
     font-size: 22px;
     padding: 13px 29px;

@@ -15,8 +15,7 @@ const TravelCard = () => {
         <Grid item xs={12} sm={6} md={4} lg={3} xl={3} key={id}>
           <Card sx={{ maxWidth: 345,margin:'15px 0' }}>
             <CardMedia className='card-img'
-              sx={{ height: 70 ,width:'70px',borderRadius:'10px',margin:'20px',objectFit:'cover'}}
-              image={img}
+               image={img}
               title="green iguana"
             />
             <CardContent>

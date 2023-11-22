@@ -19,6 +19,18 @@ padding-bottom: 15px;
 
 /* card style */
 
+.card-img{
+    width: 500px;
+    height: 300px;
+
+    /* customize card-img height width 
+     height: 70px;
+    width:70px;
+ border-radius: 10px; */
+  
+          
+}
+
 .card-title{
     font-weight: bold;
     font-size: 23px;

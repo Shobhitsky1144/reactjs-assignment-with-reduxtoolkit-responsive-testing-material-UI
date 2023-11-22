@@ -113,11 +113,7 @@ font-size: 30px;
 }
 
 @media screen and  (max-width:900px){
-    .all-tabs{
-        /* display: grid;
-        grid-template-columns: repeat(3,1fr); */
-        /* flex-direction: column!important; */
-    }
+
     .tabs-right{
         padding-left: 23px;
         padding-top: 15px;

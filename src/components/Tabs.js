@@ -55,17 +55,20 @@ export default function BasicTabs() {
   return (
     <Box sx={{ width: '100%', overflowX: 'auto' }}>
       <Grid container className="all-tabs" sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Grid item xs={12}  md={5} lg={5}>
+      
+      {/* tab left section */}
+       <Grid item xs={12}  md={5} lg={5}>
           <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
             <Tab icon={<HotelIcon />} label="Hotel" {...a11yProps(0)} />
             <Tab icon={<FlightTakeoffIcon />} label="Flight" {...a11yProps(1)} />
             <Tab icon={<DirectionsCarIcon />} label="Car Rental" {...a11yProps(2)} />
           </Tabs>
         </Grid>
+
+{/* tab right section */}
+
         <Grid item xs={12}  md={7} lg={7}>
           <div className='tabs-right'>
-            {/* <Grid container spacing={2}>
-              <Grid item xs={12} sm={6} md={6} lg={6}> */}
                 <div className='options'>
                   <div className='round-trip'>
                     <h2>Round trip</h2>
@@ -73,17 +76,17 @@ export default function BasicTabs() {
                   </div>
                 </div>
           
-              {/* <Grid item xs={12} sm={6} md={6} lg={6}> */}
+          
                 <div className='passenger'>
                   <h2>1 passenger</h2>
                   <span> <ArrowDropDownIcon /></span>
                 </div>
-              {/* </Grid> */}
-              {/* </Grid> */}
-            {/* </Grid> */}
+           
           </div>
         </Grid>
       </Grid>
+
+      {/* tab content */}
 
           <CustomTabPanel value={value} index={0}>
             <p>No data available</p>
