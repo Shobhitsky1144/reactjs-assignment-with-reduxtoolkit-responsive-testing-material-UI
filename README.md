@@ -99,7 +99,15 @@ To get started with the Travel Booking Application, follow these steps:
 
 Clone the repository.
 
-Note-->use node-16.0.0 version 
+Note-->use node-16.0.0 version ---if you dont have node 16.0.0 then install nvm from https://github.com/nvm-sh/nvm or type cmd--
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash run in window cmd
+
+nvm install 16.0.0
+
+nvm use 16.0.0
+
+now you have node16.0.0
 
 Install dependencies using npm install.
 
