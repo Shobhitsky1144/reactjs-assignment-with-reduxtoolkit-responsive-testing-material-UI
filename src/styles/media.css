@@ -114,6 +114,10 @@ font-size: 30px;
 
 @media screen and  (max-width:900px){
 
+    .compare-icon{
+    left: 4px !important;
+    }
+
     .tabs-right{
         padding-left: 23px;
         padding-top: 15px;
@@ -136,6 +140,9 @@ font-size: 30px;
 }
 
 @media screen and (min-width:901px) and (max-width:1200px) {
+    .compare-icon{
+      left:4px!important
+    }
     .card-results {
        
         margin: 12rem auto 2rem auto;
